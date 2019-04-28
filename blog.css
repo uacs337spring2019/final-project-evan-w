@@ -1,0 +1,126 @@
+/* 
+    Evan Westman
+    CSC 337
+    HW 11
+    4/24/2019
+
+    Styling for blog.html
+*/
+
+#back {
+    margin-left: 20px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descLink {
+    color: black;
+    font-size: 12pt;
+}
+
+#bottomBanner {
+    background-image: url('banner-background.png');
+    background-repeat: repeat-x;
+    display: flex;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topbanner {
+    background-image: url('banner-background.png');
+    background-repeat: repeat-x;
+    height: 100px;
+    margin-bottom: 50px;
+    text-align: left
+}
+
+a {
+    color:  white;
+    font-size: 14pt;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#bottomBanner {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+body {
+    margin: 0px;
+}
+
+#site {
+    color: white;
+    padding-top: 50px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+    margin-left: 5px;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 500px;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#searchbox {
+    border: solid gray 1px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 3px;
+    width: 300px;
+}
+
+table, th, td {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    width: 400px;
+}
+
+table {
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:first-child {
+    font-weight: bold;
+}
+
+#keyword {
+    width: 250px;
+}
+
+#recipeImg {
+    height: 250px;
+    width: 250px;
+}
+
+
+
+

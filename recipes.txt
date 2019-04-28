@@ -1,0 +1,4 @@
+pad+thai pad+thai+vegetarian 4.5 vegetarian
+cheeseburger cheeseburger+cheese+burger+hamburger 3.7 all
+kale+salad kale+salad 5.0 vegan
+chicken+wings chicken+wings 4.8 all
