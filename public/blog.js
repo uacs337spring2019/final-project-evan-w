@@ -1,4 +1,4 @@
-/*
+x/*
     Evan Westman
     CSC 337
     HW 11
@@ -32,7 +32,7 @@ window.onload = function() {
 
         
 
-        let url = "http://localhost:3000/?mode=search&keyword=" + 
+        let url = "http://blog.herokuapp.com:process.env.PORT/?mode=search&keyword=" + 
                     keyword + "&rating=" + rating + "&diet=" + diet;
 
         // Fetch from the server
@@ -121,7 +121,7 @@ function checkElements() {
  */
 function linkClick(event) {
     let recipe = event.target.innerText.toLowerCase().split(' ').join('');
-    let url = "http://localhost:3000/?mode=desc&recipe=" + recipe;
+    let url = "http://blog.herokuapp.com:process.env.PORT/?mode=desc&recipe=" + recipe;
 
     // Creating back button
     let back = document.createElement('button');

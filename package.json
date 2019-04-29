@@ -1,0 +1,19 @@
+{
+  "name": "final-project-evan-w",
+  "version": "1.0.0",
+  "description": "\"final project\"",
+  "main": "blog_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uacs337spring2019/final-project-evan-w.git"
+  },
+  "author": "Evan Westman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-evan-w/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-evan-w#readme"
+}
