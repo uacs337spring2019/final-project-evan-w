@@ -1,7 +1,7 @@
 {
-    "name": "blog_service.js",
+    "name": "recipe-book-blog",
     "description": "A food blog Node.js app using Express 4",
-    "repository": "https://github.com/heroku/final-project-evan-w",
+    "repository": "https://github.com/heroku/recipe-book-blog",
     "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
     "keywords": ["node", "express", "static"]
 }
